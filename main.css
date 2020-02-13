@@ -231,10 +231,20 @@ footer > a {
     .about {
         padding: 70px 25px;
         height: 400px;
+        text-align: left;
+    }
+
+    .second-header {
+        text-align: center;
     }
 
     h1 {
         margin-top: 100px;
+    }
+
+    .project-tech, .project-description {
+        text-align: left;
+        width: 80%;
     }
 
     .feedmeimg, .spacedimg, .quizimg {
@@ -322,6 +332,23 @@ footer > a {
     .live, .repo {
         font-size: 16px;
         width: 125px;
+    }
+
+    .live {
+        margin-bottom: -10%;
+    }
+
+    .project {
+        margin-left: -12.5%;
+    }
+
+    .project-tech, .project-description {
+        margin-left: -5%;
+        width: 80%;
+    }
+
+    h3 {
+        margin-left: 2%;
     }
 }
 
